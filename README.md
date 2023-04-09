@@ -1,5 +1,5 @@
 # sciencetopia.org
-<img src="https://user-images.githubusercontent.com/82276410/230792897-043e9c20-bb75-49e6-9d8c-261fcc7d9fcd.png" alt= “” width="960" height="320">
+<img src="https://user-images.githubusercontent.com/82276410/230793244-cf1f00b6-b3a3-40df-8009-a6d3a765ffdf.png" alt= “” width="960" height="320">
 
 ## 目标
 做一个系统、完备、面向群众、永久免费的科学平台。
