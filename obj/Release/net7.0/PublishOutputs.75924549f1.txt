@@ -1,0 +1,7 @@
+/home/sciencetopia/sciencetopia.org/bin/Release/net7.0/publish/sciencetopia.org
+/home/sciencetopia/sciencetopia.org/bin/Release/net7.0/publish/appsettings.Development.json
+/home/sciencetopia/sciencetopia.org/bin/Release/net7.0/publish/appsettings.json
+/home/sciencetopia/sciencetopia.org/bin/Release/net7.0/publish/sciencetopia.org.dll
+/home/sciencetopia/sciencetopia.org/bin/Release/net7.0/publish/sciencetopia.org.deps.json
+/home/sciencetopia/sciencetopia.org/bin/Release/net7.0/publish/sciencetopia.org.runtimeconfig.json
+/home/sciencetopia/sciencetopia.org/bin/Release/net7.0/publish/sciencetopia.org.pdb
