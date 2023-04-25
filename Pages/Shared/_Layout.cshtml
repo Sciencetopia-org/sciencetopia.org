@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,27 +9,63 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/sciencetopia.org.styles.css" asp-append-version="true" />
 </head>
+
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">sciencetopia.org</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
-                    </ul>
+        <div class="logo-container">
+            <img src="~/images/banner.png" alt="Logo" />
+        </div>
+        <h1 class="title">做一个系统、完备、永久免费的科学平台</h1>
+        <!-- 显示当前用户的用户名 -->
+        @if (Context?.Session?.GetString("username") != null)
+        {
+            <div class="user-profile-container">
+                <div class="user-avatar">
+                    <img src="https://www.discordavatars.com/wp-content/uploads/2020/05/MWU1MDA5ZjE5Y2Q0YjM4MTNkOTNkZDQyMDZjYjc4MmU.jpg"
+                        alt="User Avatar" />
+                </div>
+                <div class="user-details">
+                    <p class="user-name">@Context.Session.GetString("username")</p>
+                    <p class="user-email">@Context.Session.GetString("UserEmail")</p>
                 </div>
             </div>
-        </nav>
+        }
+        else
+        {
+            <div class="login-register-container">
+                <button id="loginButton" class="btn btn-primary">登录</button>
+                <button id="registerButton" class="btn btn-secondary">注册</button>
+            </div>
+
+            <div id="loginModal" class="modal">
+                <!-- Add your login form here -->
+                <form method="post" action="@Url.Action("Login", "Account")">
+                    <div class="form-group">
+                        <label for="username">用户名</label>
+                        <input type="text" class="form-control" name="username" id="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">密码</label>
+                        <input type="password" class="form-control" name="password" id="password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">登录</button>
+                </form>
+            </div>
+
+            <div id="registerModal" class="modal">
+                <!-- Add your register form here -->
+            </div>
+
+            <script>
+                document.getElementById("loginButton").addEventListener("click", function () {
+                    document.getElementById("loginModal").style.display = "block";
+                });
+
+                document.getElementById("registerButton").addEventListener("click", function () {
+                    document.getElementById("registerModal").style.display = "block";
+                });
+            </script>
+        }
     </header>
     <div class="container">
         <main role="main" class="pb-3">
@@ -36,10 +73,17 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - sciencetopia.org - <a asp-area="" asp-page="/Privacy">Privacy</a>
-        </div>
+
+    <footer>
+        <p>&copy; 2023 sciencetopia.org 版权所有。</p>
+        <nav>
+            <ul>
+                <li><a href="/about">关于我们</a></li>
+                <li><a href="/contact">联系我们</a></li>
+                <li><a href="/privacy">隐私政策</a></li>
+                <li><a href="/terms">服务条款</a></li>
+            </ul>
+        </nav>
     </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
@@ -48,4 +92,5 @@
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
+
 </html>

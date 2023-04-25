@@ -2,48 +2,87 @@
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
-a.navbar-brand[b-7hsw15ss9a] {
+a.navbar-brand[b-dzxrzbpi02] {
   white-space: normal;
   text-align: center;
   word-break: break-all;
 }
 
-a[b-7hsw15ss9a] {
+a[b-dzxrzbpi02] {
   color: #0077cc;
 }
 
-.btn-primary[b-7hsw15ss9a] {
+.btn-primary[b-dzxrzbpi02] {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
 
-.nav-pills .nav-link.active[b-7hsw15ss9a], .nav-pills .show > .nav-link[b-7hsw15ss9a] {
+.nav-pills .nav-link.active[b-dzxrzbpi02], .nav-pills .show > .nav-link[b-dzxrzbpi02] {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
 
-.border-top[b-7hsw15ss9a] {
+.border-top[b-dzxrzbpi02] {
   border-top: 1px solid #e5e5e5;
 }
-.border-bottom[b-7hsw15ss9a] {
+.border-bottom[b-dzxrzbpi02] {
   border-bottom: 1px solid #e5e5e5;
 }
 
-.box-shadow[b-7hsw15ss9a] {
+.box-shadow[b-dzxrzbpi02] {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
 
-button.accept-policy[b-7hsw15ss9a] {
+button.accept-policy[b-dzxrzbpi02] {
   font-size: 1rem;
   line-height: inherit;
 }
 
-.footer[b-7hsw15ss9a] {
+.footer[b-dzxrzbpi02] {
   position: absolute;
   bottom: 0;
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+}
+
+.login-register-container[b-dzxrzbpi02] {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal[b-dzxrzbpi02] {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content[b-dzxrzbpi02] {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close[b-dzxrzbpi02] {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover[b-dzxrzbpi02],
+.close:focus[b-dzxrzbpi02] {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }

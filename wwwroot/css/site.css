@@ -20,3 +20,133 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.image-container {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e4d8c0;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container img {
+  height: 100px;
+}
+
+.user-avatar img {
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-name {
+  margin: 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.user-email {
+  margin: 0;
+  font-size: 14px;
+  color: #888;
+}
+
+header .title {
+  display: inline;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+/* Search Tools */
+.search-tools {
+  margin: 1rem 0;
+}
+
+.search-tools input {
+  width: 70%;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.search-tools button {
+  width: 15%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Content */
+main {
+  margin: 2rem 0;
+}
+
+main ul {
+  list-style: none;
+}
+
+main li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #e4d8c0;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 1rem;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li {
+  display: inline;
+  margin-right: 1rem;
+}

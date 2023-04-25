@@ -60,3 +60,38 @@
 /home/sciencetopia/sciencetopia.org/obj/Debug/net7.0/sciencetopia.org.pdb
 /home/sciencetopia/sciencetopia.org/obj/Debug/net7.0/sciencetopia.org.genruntimeconfig.cache
 /home/sciencetopia/sciencetopia.org/obj/Debug/net7.0/ref/sciencetopia.org.dll
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\bin\Debug\net7.0\appsettings.json
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\bin\Debug\net7.0\sciencetopia.org.staticwebassets.runtime.json
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\bin\Debug\net7.0\sciencetopia.org.exe
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\bin\Debug\net7.0\sciencetopia.org.deps.json
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\bin\Debug\net7.0\sciencetopia.org.runtimeconfig.json
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\bin\Debug\net7.0\sciencetopia.org.dll
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\bin\Debug\net7.0\sciencetopia.org.pdb
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\bin\Debug\net7.0\Neo4j.Driver.dll
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\obj\Debug\net7.0\sciencetopia.org.csproj.AssemblyReference.cache
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\obj\Debug\net7.0\sciencetopia.org.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\obj\Debug\net7.0\sciencetopia.org.AssemblyInfoInputs.cache
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\obj\Debug\net7.0\sciencetopia.org.AssemblyInfo.cs
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\obj\Debug\net7.0\sciencetopia.org.csproj.CoreCompileInputs.cache
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\obj\Debug\net7.0\sciencetopia.org.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\obj\Debug\net7.0\sciencetopia.org.RazorAssemblyInfo.cache
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\obj\Debug\net7.0\sciencetopia.org.RazorAssemblyInfo.cs
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\obj\Debug\net7.0\staticwebassets\msbuild.sciencetopia.org.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\obj\Debug\net7.0\staticwebassets\msbuild.build.sciencetopia.org.props
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.sciencetopia.org.props
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.sciencetopia.org.props
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\obj\Debug\net7.0\scopedcss\bundle\sciencetopia.org.styles.css
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\obj\Debug\net7.0\scopedcss\projectbundle\sciencetopia.org.bundle.scp.css
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\obj\Debug\net7.0\sciencetopia.org.csproj.CopyComplete
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\obj\Debug\net7.0\sciencetopia.org.dll
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\obj\Debug\net7.0\refint\sciencetopia.org.dll
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\obj\Debug\net7.0\sciencetopia.org.pdb
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\obj\Debug\net7.0\sciencetopia.org.genruntimeconfig.cache
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\obj\Debug\net7.0\ref\sciencetopia.org.dll
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\bin\Debug\net7.0\System.Security.Permissions.dll

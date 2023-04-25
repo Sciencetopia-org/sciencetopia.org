@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/sciencetopia/sciencetopia.org/sciencetopia.org.csproj": {}
+    "C:\\Users\\83035\\OneDrive - Washington University in St. Louis\\Documents\\Sciencetopia\\sciencetopia.org\\sciencetopia.org.csproj": {}
   },
   "projects": {
-    "/home/sciencetopia/sciencetopia.org/sciencetopia.org.csproj": {
+    "C:\\Users\\83035\\OneDrive - Washington University in St. Louis\\Documents\\Sciencetopia\\sciencetopia.org\\sciencetopia.org.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/sciencetopia/sciencetopia.org/sciencetopia.org.csproj",
+        "projectUniqueName": "C:\\Users\\83035\\OneDrive - Washington University in St. Louis\\Documents\\Sciencetopia\\sciencetopia.org\\sciencetopia.org.csproj",
         "projectName": "sciencetopia.org",
-        "projectPath": "/home/sciencetopia/sciencetopia.org/sciencetopia.org.csproj",
-        "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/home/sciencetopia/sciencetopia.org/obj/",
+        "projectPath": "C:\\Users\\83035\\OneDrive - Washington University in St. Louis\\Documents\\Sciencetopia\\sciencetopia.org\\sciencetopia.org.csproj",
+        "packagesPath": "C:\\Users\\83035\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\83035\\OneDrive - Washington University in St. Louis\\Documents\\Sciencetopia\\sciencetopia.org\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\83035\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -37,6 +37,20 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Neo4j.Driver": {
+              "target": "Package",
+              "version": "[4.3.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -56,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
