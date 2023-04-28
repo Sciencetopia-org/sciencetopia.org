@@ -13,13 +13,20 @@
         "packagesPath": "C:\\Users\\83035\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\83035\\OneDrive - Washington University in St. Louis\\Documents\\Sciencetopia\\sciencetopia.org\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\83035\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\83035\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,6 +45,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Cryptography.KeyDerivation": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
             "Microsoft.AspNetCore.Http": {
               "target": "Package",
               "version": "[2.2.2, )"
@@ -46,9 +57,13 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Neo4j.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
             "Neo4j.Driver": {
               "target": "Package",
-              "version": "[4.3.2, )"
+              "version": "[5.7.0, )"
             }
           },
           "imports": [

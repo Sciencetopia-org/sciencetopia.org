@@ -4,16 +4,10 @@ namespace Sciencetopia.Models
 {
     public class ApplicationUser
     {
-        [Key]
-        public int? Id { get; set; }
-
-        [Required]
-        public string? Username { get; set; }
-
-        [Required]
+        public string Id { get; set; }
+        public string? UserName { get; set; }
         public string? Email { get; set; }
-
-        [Required]
-        public string? PasswordHash { get; set; }
+        public string? Password { get; set; }
+        public string? Salt { get; set; }
     }
 }

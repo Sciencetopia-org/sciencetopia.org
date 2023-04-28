@@ -69,7 +69,12 @@ C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Scienceto
 C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\bin\Debug\net7.0\sciencetopia.org.dll
 C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\bin\Debug\net7.0\sciencetopia.org.pdb
 C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\bin\Debug\net7.0\Neo4j.AspNetCore.Identity.dll
 C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\bin\Debug\net7.0\Neo4j.Driver.dll
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\bin\Debug\net7.0\Neo4jClient.dll
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\bin\Debug\net7.0\Neo4jClient.DataAnnotations.dll
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\bin\Debug\net7.0\System.Security.Permissions.dll
 C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\obj\Debug\net7.0\sciencetopia.org.csproj.AssemblyReference.cache
 C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\obj\Debug\net7.0\sciencetopia.org.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\obj\Debug\net7.0\sciencetopia.org.AssemblyInfoInputs.cache
@@ -94,4 +99,5 @@ C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Scienceto
 C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\obj\Debug\net7.0\sciencetopia.org.pdb
 C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\obj\Debug\net7.0\sciencetopia.org.genruntimeconfig.cache
 C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\obj\Debug\net7.0\ref\sciencetopia.org.dll
-C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll

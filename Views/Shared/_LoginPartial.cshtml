@@ -1,0 +1,26 @@
+@using Microsoft.AspNetCore.Authentication
+@{
+    var isAuthenticated = User.Identity.IsAuthenticated;
+}
+
+@if (isAuthenticated)
+{
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="userDropdown" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <img src="头像URL" alt="用户头像" style="width: 30px; height: 30px; border-radius: 50%;">
+        </button>
+        <div class="dropdown-menu" aria-labelledby="userDropdown">
+            <a class="dropdown-item" href="#">个人中心</a>
+            <div class="dropdown-divider"></div>
+            <form asp-controller="Account" asp-action="Logout" method="post">
+                <button type="submit" class="dropdown-item">登出</button>
+            </form>
+        </div>
+    </div>
+}
+else
+{
+    <a class="btn btn-primary" href="@Url.Action("Login", "Account")">登录</a>
+    <a class="btn btn-secondary" href="@Url.Action("Register", "Account")">注册</a>
+}
