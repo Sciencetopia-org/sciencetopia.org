@@ -5,16 +5,52 @@
       "PackagePath": "staticwebassets\\sciencetopia.org.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\83035\\OneDrive - Washington University in St. Louis\\Documents\\Sciencetopia\\sciencetopia.org\\wwwroot\\css\\dark-theme.css",
+      "PackagePath": "staticwebassets\\css\\dark-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\83035\\OneDrive - Washington University in St. Louis\\Documents\\Sciencetopia\\sciencetopia.org\\wwwroot\\css\\footer.css",
+      "PackagePath": "staticwebassets\\css\\footer.css"
+    },
+    {
+      "Id": "C:\\Users\\83035\\OneDrive - Washington University in St. Louis\\Documents\\Sciencetopia\\sciencetopia.org\\wwwroot\\css\\form.css",
+      "PackagePath": "staticwebassets\\css\\form.css"
+    },
+    {
+      "Id": "C:\\Users\\83035\\OneDrive - Washington University in St. Louis\\Documents\\Sciencetopia\\sciencetopia.org\\wwwroot\\css\\header.css",
+      "PackagePath": "staticwebassets\\css\\header.css"
+    },
+    {
+      "Id": "C:\\Users\\83035\\OneDrive - Washington University in St. Louis\\Documents\\Sciencetopia\\sciencetopia.org\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "C:\\Users\\83035\\OneDrive - Washington University in St. Louis\\Documents\\Sciencetopia\\sciencetopia.org\\wwwroot\\css\\search-tools.css",
+      "PackagePath": "staticwebassets\\css\\search-tools.css"
+    },
+    {
       "Id": "C:\\Users\\83035\\OneDrive - Washington University in St. Louis\\Documents\\Sciencetopia\\sciencetopia.org\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\83035\\OneDrive - Washington University in St. Louis\\Documents\\Sciencetopia\\sciencetopia.org\\wwwroot\\css\\switches.css",
+      "PackagePath": "staticwebassets\\css\\switches.css"
     },
     {
       "Id": "C:\\Users\\83035\\OneDrive - Washington University in St. Louis\\Documents\\Sciencetopia\\sciencetopia.org\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\83035\\OneDrive - Washington University in St. Louis\\Documents\\Sciencetopia\\sciencetopia.org\\wwwroot\\images\\LOGO6.jpg",
+      "PackagePath": "staticwebassets\\images\\LOGO6.jpg"
+    },
+    {
       "Id": "C:\\Users\\83035\\OneDrive - Washington University in St. Louis\\Documents\\Sciencetopia\\sciencetopia.org\\wwwroot\\images\\banner.png",
       "PackagePath": "staticwebassets\\images\\banner.png"
+    },
+    {
+      "Id": "C:\\Users\\83035\\OneDrive - Washington University in St. Louis\\Documents\\Sciencetopia\\sciencetopia.org\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
       "Id": "C:\\Users\\83035\\OneDrive - Washington University in St. Louis\\Documents\\Sciencetopia\\sciencetopia.org\\wwwroot\\js\\site.js",

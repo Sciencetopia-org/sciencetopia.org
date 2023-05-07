@@ -1,0 +1,144 @@
+/* Header */
+.site-header {
+    background-color: #e4d8c0;
+    padding: 0px 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-container img {
+    width: 80px;
+  }
+  
+  .logo-icon {
+    font-size: 36px;
+    margin-right: 10px;
+  }
+  
+  .site-title {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 36px !important;
+    margin-left: 8px;
+    -webkit-text-stroke: 1px #000;
+    color: transparent;
+  }
+  
+  .site-description {
+    font-size: 14px !important;
+    margin-bottom: 0;
+  }
+  
+  .arrow {
+    font-size: 48px;
+    color: red;
+    margin-left: 10px;
+  }
+  
+  .arrow-container {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  
+  .arrow-icon {
+    font-size: 48px;
+    color: #FF0000;
+    position: absolute;
+    left: calc(100% + 10px);
+    top: 0;
+    z-index: 1;
+  }
+  
+  .search-container {
+      width: 100%;
+  }
+  
+  .search-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-form input {
+    width: 250px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  
+  .search-btn {
+    background-color: #e4d8c0;
+    border: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .user-avatar img {
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user-name {
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .user-email {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  header .title {
+    display: inline;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+  }
+  
+  /* dark mode icons */
+.sun-icon,
+.moon-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.4s;
+}
+
+.sun-icon {
+    left: 8px;
+}
+
+.moon-icon {
+    left: 34px;
+    opacity: 0;
+}
+
+input:checked + .slider .sun-icon {
+    opacity: 0;
+}
+
+input:checked + .slider .moon-icon {
+    opacity: 1;
+}

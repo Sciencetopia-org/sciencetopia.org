@@ -1,4 +1,6 @@
 html {
+  position: relative;
+  min-height: 100%;
   background-color: #e4d8c0;
   font-size: 14px;
 }
@@ -15,11 +17,6 @@ html {
 .form-control:focus,
 .form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
 }
 
 /* Reset some default styles */
@@ -42,10 +39,10 @@ h2 {
 
 /* General styles */
 body {
-  margin-bottom: 60px;
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  /* background-color: #e4d8c0; */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
@@ -71,66 +68,6 @@ a {
   text-decoration: none;
 }
 
-/* Header */
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #e4d8c0;
-  padding-top: 0px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 0px;
-  /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); */
-}
-
-.logo-container img {
-  height: 60px;
-  align-items: top;
-}
-
-.user-avatar img {
-  height: 40px;
-  border-radius: 50%;
-  margin-right: 10px;
-}
-
-.user-name {
-  margin: 0;
-  font-weight: bold;
-  font-size: 16px;
-}
-
-.user-email {
-  margin: 0;
-  font-size: 14px;
-  color: #888;
-}
-
-header .title {
-  display: inline;
-  font-size: 1.2rem;
-  margin-left: 1rem;
-}
-
-/* Search Tools */
-.search-tools {
-  margin: 1rem 0;
-}
-
-.search-tools input {
-  width: 70%;
-  padding: 0.5rem;
-  font-size: 1rem;
-}
-
-.search-tools button {
-  width: 15%;
-  padding: 0.5rem;
-  font-size: 1rem;
-  cursor: pointer;
-}
-
 /* Content */
 main {
   margin: 2rem 0;
@@ -143,76 +80,4 @@ main ul {
 main li {
   display: inline;
   margin-right: 1rem;
-}
-
-/* Footer */
-footer {
-  background-color: #e4d8c0;
-  padding: 1rem 0;
-  text-align: center;
-  /* box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.1); */
-}
-
-footer p {
-  margin-bottom: 1rem;
-}
-
-footer ul {
-  list-style: none;
-}
-
-footer li {
-  display: inline;
-  margin-right: 1rem;
-}
-
-/* Form */
-.form-container {
-  width: 100%;
-  max-width: 400px;
-  margin: 50px auto;
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 4px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.form-group {
-  margin-bottom: 20px;
-}
-
-label {
-  display: block;
-  font-size: 16px;
-  color: #333333;
-  margin-bottom: 5px;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="password"] {
-  width: 100%;
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #e4d8c0;
-  border-radius: 4px;
-  color: #333333;
-}
-
-button[type="submit"] {
-  display: block;
-  /* width: 100%; */
-  padding: 10px;
-  font-size: 18px;
-  font-weight: bold;
-  background-color: #e4d8c0;
-  border: none;
-  border-radius: 4px;
-  color: #333333;
-  cursor: pointer;
-  margin-top: 20px;
-}
-
-button[type="submit"]:hover {
-  background-color: #d9c9a9;
 }

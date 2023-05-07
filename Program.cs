@@ -13,6 +13,9 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.LogoutPath = "/Account/Logout";
         options.AccessDeniedPath = "/Account/AccessDenied";
     });
+    
+// 添加授权服务
+builder.Services.AddAuthorization();
 
 // Add services to the container.
 builder.Services.AddRazorPages();
@@ -56,6 +59,9 @@ else
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
+// 注册自定义的UserActivityMiddleware
+app.UseMiddleware<UserActivityMiddleware>();
 
 app.UseRouting();
 

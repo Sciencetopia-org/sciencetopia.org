@@ -20,6 +20,7 @@ namespace Sciencetopia.Controllers
         }
 
         // GET: Account/Register
+        [AllowAnonymous]
         [HttpGet]
         public IActionResult Register()
         {
@@ -59,6 +60,7 @@ namespace Sciencetopia.Controllers
         }
 
         // GET: Account/Login
+        [AllowAnonymous]
         [HttpGet]
         public IActionResult Login()
         {

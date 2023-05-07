@@ -1,0 +1,12 @@
+@model List<Sciencetopia.Models.Recommendation>
+
+<h2>推荐</h2>
+
+<ul>
+    @foreach (var recommendation in Model)
+    {
+        <li>
+            <a href="@recommendation.Url">@recommendation.Title</a>
+        </li>
+    }
+</ul>
