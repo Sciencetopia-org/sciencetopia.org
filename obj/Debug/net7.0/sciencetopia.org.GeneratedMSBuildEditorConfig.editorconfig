@@ -9,57 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = sciencetopia.org
 build_property.RootNamespace = sciencetopia.org
-build_property.ProjectDir = C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\
+build_property.ProjectDir = c:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org
+build_property.MSBuildProjectDirectory = c:\Users\83035\OneDrive - Washington University in St. Louis\Documents\Sciencetopia\sciencetopia.org
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/83035/OneDrive - Washington University in St. Louis/Documents/Sciencetopia/sciencetopia.org/Pages/Error.cshtml]
+[c:/Users/83035/OneDrive - Washington University in St. Louis/Documents/Sciencetopia/sciencetopia.org/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/83035/OneDrive - Washington University in St. Louis/Documents/Sciencetopia/sciencetopia.org/Pages/Index.cshtml]
+[c:/Users/83035/OneDrive - Washington University in St. Louis/Documents/Sciencetopia/sciencetopia.org/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/83035/OneDrive - Washington University in St. Louis/Documents/Sciencetopia/sciencetopia.org/Pages/Privacy.cshtml]
+[c:/Users/83035/OneDrive - Washington University in St. Louis/Documents/Sciencetopia/sciencetopia.org/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/83035/OneDrive - Washington University in St. Louis/Documents/Sciencetopia/sciencetopia.org/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/83035/OneDrive - Washington University in St. Louis/Documents/Sciencetopia/sciencetopia.org/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/83035/OneDrive - Washington University in St. Louis/Documents/Sciencetopia/sciencetopia.org/Pages/_ViewImports.cshtml]
+[c:/Users/83035/OneDrive - Washington University in St. Louis/Documents/Sciencetopia/sciencetopia.org/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/83035/OneDrive - Washington University in St. Louis/Documents/Sciencetopia/sciencetopia.org/Pages/_ViewStart.cshtml]
+[c:/Users/83035/OneDrive - Washington University in St. Louis/Documents/Sciencetopia/sciencetopia.org/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/83035/OneDrive - Washington University in St. Louis/Documents/Sciencetopia/sciencetopia.org/Views/Account/AccessDenied.cshtml]
+[c:/Users/83035/OneDrive - Washington University in St. Louis/Documents/Sciencetopia/sciencetopia.org/Views/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/83035/OneDrive - Washington University in St. Louis/Documents/Sciencetopia/sciencetopia.org/Views/Account/Login.cshtml]
+[c:/Users/83035/OneDrive - Washington University in St. Louis/Documents/Sciencetopia/sciencetopia.org/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/83035/OneDrive - Washington University in St. Louis/Documents/Sciencetopia/sciencetopia.org/Views/Account/Register.cshtml]
+[c:/Users/83035/OneDrive - Washington University in St. Louis/Documents/Sciencetopia/sciencetopia.org/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/83035/OneDrive - Washington University in St. Louis/Documents/Sciencetopia/sciencetopia.org/Views/Recommendations/RecommendationsIndex.cshtml]
+[c:/Users/83035/OneDrive - Washington University in St. Louis/Documents/Sciencetopia/sciencetopia.org/Views/Recommendations/RecommendationsIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjb21tZW5kYXRpb25zXFJlY29tbWVuZGF0aW9uc0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/83035/OneDrive - Washington University in St. Louis/Documents/Sciencetopia/sciencetopia.org/Views/Shared/_LoginPartial.cshtml]
+[c:/Users/83035/OneDrive - Washington University in St. Louis/Documents/Sciencetopia/sciencetopia.org/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/83035/OneDrive - Washington University in St. Louis/Documents/Sciencetopia/sciencetopia.org/Pages/Shared/_Layout.cshtml]
+[c:/Users/83035/OneDrive - Washington University in St. Louis/Documents/Sciencetopia/sciencetopia.org/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-dzxrzbpi02

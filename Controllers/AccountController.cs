@@ -89,7 +89,7 @@ namespace Sciencetopia.Controllers
 
                     await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal, new AuthenticationProperties { IsPersistent = model.RememberMe });
 
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("Index", "Home", new { area = "Pages" });
                 }
                 else
                 {
@@ -106,7 +106,7 @@ namespace Sciencetopia.Controllers
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index", "Home", new { area = "Pages" });
         }
         // 注册用户的逻辑
         public async Task<bool> CreateUserAsync(ApplicationUser user)
